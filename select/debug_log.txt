@@ -1,0 +1,41 @@
+データベース接続成功
+エラー: トークンが提供されていません。
+データベース接続成功
+データベースエラー: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greenjackal32_yanai.password_reset_tokens' doesn't exist
+データベース接続成功
+データベースエラー: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greenjackal32_yanai.password_reset_tokens' doesn't exist
+データベース接続成功
+データベースエラー: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greenjackal32_yanai.password_reset_tokens' doesn't exist
+データベース接続成功
+データベースエラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'expiration' in 'where clause'
+データベース接続成功
+データベースエラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'expiration' in 'where clause'
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: トークンが提供されていません。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+エラー: 無効なトークンまたはトークンの有効期限が切れています。
+データベース接続成功
+トークン有効
+エラー: POSTメソッドでリクエストしてください。

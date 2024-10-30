@@ -1,0 +1,584 @@
+2024-07-18 03:00:38	SERVER -> CLIENT: 220 www342b.sakura.ne.jp ESMTP Sendmail 8.16.1/8.16.1; Thu, 18 Jul 2024 12:00:38 +0900 (JST)
+
+2024-07-18 03:00:38	CLIENT -> SERVER: EHLO iwt2024.jp
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 250-www342b.sakura.ne.jp Hello www342b.sakura.ne.jp [219.94.155.172], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 209715200
+250-DSN
+250-ETRN
+250-AUTH CRAM-MD5 DIGEST-MD5 LOGIN PLAIN
+250-DELIVERBY
+250 HELP
+
+2024-07-18 03:00:38	CLIENT -> SERVER: AUTH CRAM-MD5
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 334 PDkwMDU5ODk5Ljk5OTU3MDhAd3d3MzQyYi5zYWt1cmEubmUuanA+
+
+2024-07-18 03:00:38	CLIENT -> SERVER: [credentials hidden]
+2024-07-18 03:00:38	SERVER -> CLIENT: 235 2.0.0 OK Authenticated
+
+2024-07-18 03:00:38	CLIENT -> SERVER: MAIL FROM:<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 250 2.1.0 <iwt2024_registration@s-bev.jp>... Sender ok
+
+2024-07-18 03:00:38	CLIENT -> SERVER: RCPT TO:<kayoko.yanai@gpj.com>
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 250 2.1.5 <kayoko.yanai@gpj.com>... Recipient ok
+
+2024-07-18 03:00:38	CLIENT -> SERVER: DATA
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 354 Enter mail, end with "." on a line by itself
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Date: Thu, 18 Jul 2024 12:00:38 +0900
+
+2024-07-18 03:00:38	CLIENT -> SERVER: To: =?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA==?= <kayoko.yanai@gpj.com>
+
+2024-07-18 03:00:38	CLIENT -> SERVER: From: =?UTF-8?Q?Informatica_World_Tour_2024_=E4=BA=8B=E5=8B=99=E5=B1=80?= <iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Subject: =?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMsuWujOS6huOBruOBlOmAo+e1oQ==?=
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Message-ID: <6XjaCDu1Kei7aqW2kNsvBKCuU9o7gp2vHd2J2Qfw4@iwt2024.jp>
+
+2024-07-18 03:00:38	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:00:38	CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2024-07-18 03:00:38	CLIENT -> SERVER: DKIM-Signature: v=1; d=s-bev.jp; s=rs20240712;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  a=rsa-sha256; q=dns/txt; t=1721271638; c=relaxed/simple;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  h=Date:To:From:Subject:Message-ID:X-Mailer:MIME-Version:Content-Type;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  i=iwt2024_registration@s-bev.jp;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  z=Date:Thu,=2018=20Jul=202024=2012:00:38=20+0900
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |To:=3D?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA=3D=3D?=3D=20<kayoko.yanai@gpj.com>
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |From:=3D?UTF-8?Q?Informatica_World_Tour_2024_=3DE4=3DBA=3D8B=3DE5=3D8B=3D
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  99=3DE5=3DB1=3D80?=3D=20<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |Subject:=3D?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMs
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  uWujOS6huOBruOBlOmAo+e1oQ=3D=3D?=3D
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |Message-ID:<6XjaCDu1Kei7aqW2kNsvBKCuU9o7gp2vHd2J2Qfw4@iwt2024.jp>
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |X-Mailer:PHPMailer=206.9.1=20(https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |MIME-Version:1.0
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  |Content-Type:text/plain=3B=20charset=3DUTF-8;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  bh=pP/QIBEJZXy36AexFgeY/VlNG/sGJou1TodrN5m6clQ=;
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  b=nixYmLPN2mTNJpoQ3Zgc5Bc534k5a+yG8DUldQD6Et8AGOuARQEr47Av1NLlopis1jjejaEvH
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  lWINuOXthIj0FrWxMTqNYsxeTFOSIpUc0Bsdjv8mycY2g4nR2AfAeNC5fOLG1RdPLMJiEUGED
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  N1lJKdczagjKYSZsyiI/iWQNKWHPkt7YYFFn41d3du0I5l+Vp8n0pmuKpS4iiwEz9/il+QVw0
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  4RiWVCSiTaZnjw852EbS8ulQk95eJ3LJ8PT5ClRYidcXwjCcJ59BDA7gyN3c8wGefL/9q7Or4
+
+2024-07-18 03:00:38	CLIENT -> SERVER:  zKPbXHcOH0ID+jGPBS9awh4ylX1XWLR8OBoAyPYzlPrWxxvv+A==
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 【Informatica World Tour 2024】登録完了のご連絡
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:00:38	CLIENT -> SERVER: このたびは、「Informatica World Tour 2024」にお申し込みいただきまして、
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 誠にありがとうございます。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: お客様のご登録が完了いたしましたのでご連絡申し上げます。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 後日、事務局より当日来場時に必要な参加受講票を、お送りいたします。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ＜Informatica World Tour 2024 開催概要＞
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 会期：2024年9月13日(金) 13:30-18:30（13:00- 受付/展示オープン）
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 会場：大手町プレイス ホール&カンファレンス（2F 受付）
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 　　　東京都千代田区大手町2-3-1大手町プレイス(イーストタワー) 1F/2F
+
+2024-07-18 03:00:38	CLIENT -> SERVER: アクセス：東京メトロ・都営地下鉄 「大手町」駅 A5出口直結
+
+2024-07-18 03:00:38	CLIENT -> SERVER: https://otemachi-place-hc.jp/access.html
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ＜お客様情報＞
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:00:38	CLIENT -> SERVER: [ID] nYopUq6t3101
+
+2024-07-18 03:00:38	CLIENT -> SERVER: [会社名] 株式会社シードブレイン
+
+2024-07-18 03:00:38	CLIENT -> SERVER: [氏名] 柳井 可世子
+
+2024-07-18 03:00:38	CLIENT -> SERVER: [セッション]
+
+2024-07-18 03:00:38	CLIENT -> SERVER: マイページより、ご登録いただいたセッションをご確認いただけます。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ＜マイページ＞
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 下記URLよりアクセスいただき、お客様情報に記載されている[ID]番号とご登録いただいた[パスワード]をご入力の上、マイページへログインしてください。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: URL：https://s-bev.jp/login.php
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ご登録いただいた[パスワード]が不明の場合は、マイページのログイン画面にあります
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 「パスワードを忘れた方」よりお問い合わせください。
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ＜お問い合わせ＞
+
+2024-07-18 03:00:38	CLIENT -> SERVER: Informatica World Tour 2024 事務局
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ◇システムやアカウントに関するお問い合わせ（株式会社シードブレイン 内）
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 　Email：iwt2024_registration@s-bev.jp
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: ◇イベント内容に関するお問い合わせ（株式会社George P. Johnsnon 内）
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 　Email：iwt2024@jevent.jp
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: 
+
+2024-07-18 03:00:38	CLIENT -> SERVER: .
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 250 2.0.0 46I30cwg034172 Message accepted for delivery
+
+2024-07-18 03:00:38	CLIENT -> SERVER: QUIT
+
+2024-07-18 03:00:38	SERVER -> CLIENT: 221 2.0.0 www342b.sakura.ne.jp closing connection
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 220 www342b.sakura.ne.jp ESMTP Sendmail 8.16.1/8.16.1; Thu, 18 Jul 2024 12:02:29 +0900 (JST)
+
+2024-07-18 03:02:29	CLIENT -> SERVER: EHLO iwt2024.jp
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 250-www342b.sakura.ne.jp Hello www342b.sakura.ne.jp [219.94.155.172], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 209715200
+250-DSN
+250-ETRN
+250-AUTH CRAM-MD5 DIGEST-MD5 LOGIN PLAIN
+250-DELIVERBY
+250 HELP
+
+2024-07-18 03:02:29	CLIENT -> SERVER: AUTH CRAM-MD5
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 334 PDM2MjI3OTI1NzMuOTk5NTgxOUB3d3czNDJiLnNha3VyYS5uZS5qcD4=
+
+2024-07-18 03:02:29	CLIENT -> SERVER: [credentials hidden]
+2024-07-18 03:02:29	SERVER -> CLIENT: 235 2.0.0 OK Authenticated
+
+2024-07-18 03:02:29	CLIENT -> SERVER: MAIL FROM:<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 250 2.1.0 <iwt2024_registration@s-bev.jp>... Sender ok
+
+2024-07-18 03:02:29	CLIENT -> SERVER: RCPT TO:<khorikawa@informatica.com>
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 250 2.1.5 <khorikawa@informatica.com>... Recipient ok
+
+2024-07-18 03:02:29	CLIENT -> SERVER: DATA
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 354 Enter mail, end with "." on a line by itself
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Date: Thu, 18 Jul 2024 12:02:29 +0900
+
+2024-07-18 03:02:29	CLIENT -> SERVER: To: =?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA==?= <khorikawa@informatica.com>
+
+2024-07-18 03:02:29	CLIENT -> SERVER: From: =?UTF-8?Q?Informatica_World_Tour_2024_=E4=BA=8B=E5=8B=99=E5=B1=80?= <iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Subject: =?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMsuWujOS6huOBruOBlOmAo+e1oQ==?=
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Message-ID: <zWJSZnMpzEVxdTA9LYcQE2CK0gZNQTIoHbWB7ippgQw@iwt2024.jp>
+
+2024-07-18 03:02:29	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:02:29	CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2024-07-18 03:02:29	CLIENT -> SERVER: DKIM-Signature: v=1; d=s-bev.jp; s=rs20240712;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  a=rsa-sha256; q=dns/txt; t=1721271749; c=relaxed/simple;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  h=Date:To:From:Subject:Message-ID:X-Mailer:MIME-Version:Content-Type;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  i=iwt2024_registration@s-bev.jp;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  z=Date:Thu,=2018=20Jul=202024=2012:02:29=20+0900
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |To:=3D?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA=3D=3D?=3D=20<khorikawa@informatica.
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  com>
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |From:=3D?UTF-8?Q?Informatica_World_Tour_2024_=3DE4=3DBA=3D8B=3DE5=3D8B=3D
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  99=3DE5=3DB1=3D80?=3D=20<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |Subject:=3D?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMs
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  uWujOS6huOBruOBlOmAo+e1oQ=3D=3D?=3D
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |Message-ID:<zWJSZnMpzEVxdTA9LYcQE2CK0gZNQTIoHbWB7ippgQw@iwt2024.jp>
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |X-Mailer:PHPMailer=206.9.1=20(https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |MIME-Version:1.0
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  |Content-Type:text/plain=3B=20charset=3DUTF-8;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  bh=RUGKBugdLGUUqbZzKEv5IyKGE4/M0Lo2sTLIucaovHM=;
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  b=RC7aZUxpb+jZvh97E9yLRDfQpw1oBByYChc0PkFOOnwut7d96mdFKTNnMe7YBOBusQb22lBOB
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  K19TuORsA1cOd81HjUETKGb0B/mk1yHbef6Hompw6NClpKMCzQWRP2jsYI5Tw5SKKnOpVHeWY
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  v0I7MrKC8DW0mypRWwBOrajtasbehd3LCaOkJD0NNvjfrj+maRr4sTvXDn3fbSKIiaVdAByEC
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  4FefXRSV85HJqRGBDwopdX+9uDGcDUnMCbNO/e5eR99Q1TzWkYpakNyWDzKKhqm71ZKlh9iOZ
+
+2024-07-18 03:02:29	CLIENT -> SERVER:  QSzVU2vZyWfh1kV5m7ZfD+wMEknI1Gvdvqj4xOllCwoNgncYOg==
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 【Informatica World Tour 2024】登録完了のご連絡
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:02:29	CLIENT -> SERVER: このたびは、「Informatica World Tour 2024」にお申し込みいただきまして、
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 誠にありがとうございます。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: お客様のご登録が完了いたしましたのでご連絡申し上げます。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 後日、事務局より当日来場時に必要な参加受講票を、お送りいたします。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ＜Informatica World Tour 2024 開催概要＞
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 会期：2024年9月13日(金) 13:30-18:30（13:00- 受付/展示オープン）
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 会場：大手町プレイス ホール&カンファレンス（2F 受付）
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 　　　東京都千代田区大手町2-3-1大手町プレイス(イーストタワー) 1F/2F
+
+2024-07-18 03:02:29	CLIENT -> SERVER: アクセス：東京メトロ・都営地下鉄 「大手町」駅 A5出口直結
+
+2024-07-18 03:02:29	CLIENT -> SERVER: https://otemachi-place-hc.jp/access.html
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ＜お客様情報＞
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:02:29	CLIENT -> SERVER: [ID] F2kb6Uoh3101
+
+2024-07-18 03:02:29	CLIENT -> SERVER: [会社名] 株式会社シードブレイン
+
+2024-07-18 03:02:29	CLIENT -> SERVER: [氏名] 柳井 可世子
+
+2024-07-18 03:02:29	CLIENT -> SERVER: [セッション]
+
+2024-07-18 03:02:29	CLIENT -> SERVER: マイページより、ご登録いただいたセッションをご確認いただけます。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ＜マイページ＞
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 下記URLよりアクセスいただき、お客様情報に記載されている[ID]番号とご登録いただいた[パスワード]をご入力の上、マイページへログインしてください。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: URL：https://s-bev.jp/login.php
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ご登録いただいた[パスワード]が不明の場合は、マイページのログイン画面にあります
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 「パスワードを忘れた方」よりお問い合わせください。
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ＜お問い合わせ＞
+
+2024-07-18 03:02:29	CLIENT -> SERVER: Informatica World Tour 2024 事務局
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ◇システムやアカウントに関するお問い合わせ（株式会社シードブレイン 内）
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 　Email：iwt2024_registration@s-bev.jp
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: ◇イベント内容に関するお問い合わせ（株式会社George P. Johnsnon 内）
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 　Email：iwt2024@jevent.jp
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: 
+
+2024-07-18 03:02:29	CLIENT -> SERVER: .
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 250 2.0.0 46I32TW6035456 Message accepted for delivery
+
+2024-07-18 03:02:29	CLIENT -> SERVER: QUIT
+
+2024-07-18 03:02:29	SERVER -> CLIENT: 221 2.0.0 www342b.sakura.ne.jp closing connection
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 220 www342b.sakura.ne.jp ESMTP Sendmail 8.16.1/8.16.1; Thu, 18 Jul 2024 12:12:54 +0900 (JST)
+
+2024-07-18 03:12:54	CLIENT -> SERVER: EHLO iwt2024.jp
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 250-www342b.sakura.ne.jp Hello www342b.sakura.ne.jp [219.94.155.172], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 209715200
+250-DSN
+250-AUTH CRAM-MD5 DIGEST-MD5 LOGIN PLAIN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+2024-07-18 03:12:54	CLIENT -> SERVER: STARTTLS
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2024-07-18 03:12:54	CLIENT -> SERVER: EHLO iwt2024.jp
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 250-www342b.sakura.ne.jp Hello www342b.sakura.ne.jp [219.94.155.172], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 209715200
+250-DSN
+250-AUTH CRAM-MD5 DIGEST-MD5 LOGIN PLAIN
+250-DELIVERBY
+250 HELP
+
+2024-07-18 03:12:54	CLIENT -> SERVER: AUTH CRAM-MD5
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 334 PDQwNzY4ODQ1NS45OTk2NDQ0QHd3dzM0MmIuc2FrdXJhLm5lLmpwPg==
+
+2024-07-18 03:12:54	CLIENT -> SERVER: [credentials hidden]
+2024-07-18 03:12:54	SERVER -> CLIENT: 235 2.0.0 OK Authenticated
+
+2024-07-18 03:12:54	CLIENT -> SERVER: MAIL FROM:<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 250 2.1.0 <iwt2024_registration@s-bev.jp>... Sender ok
+
+2024-07-18 03:12:54	CLIENT -> SERVER: RCPT TO:<khorikawa@informatica.com>
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 250 2.1.5 <khorikawa@informatica.com>... Recipient ok
+
+2024-07-18 03:12:54	CLIENT -> SERVER: DATA
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 354 Enter mail, end with "." on a line by itself
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Date: Thu, 18 Jul 2024 12:12:54 +0900
+
+2024-07-18 03:12:54	CLIENT -> SERVER: To: =?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA==?= <khorikawa@informatica.com>
+
+2024-07-18 03:12:54	CLIENT -> SERVER: From: =?UTF-8?Q?Informatica_World_Tour_2024_=E4=BA=8B=E5=8B=99=E5=B1=80?= <iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Subject: =?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMsuWujOS6huOBruOBlOmAo+e1oQ==?=
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Message-ID: <O5bgXBqQglzRJwZvZl5yMIEWD3t2GsjhOhkjzbpJ34w@iwt2024.jp>
+
+2024-07-18 03:12:54	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:12:54	CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2024-07-18 03:12:54	CLIENT -> SERVER: DKIM-Signature: v=1; d=s-bev.jp; s=rs20240712;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  a=rsa-sha256; q=dns/txt; t=1721272374; c=relaxed/simple;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  h=Date:To:From:Subject:Message-ID:X-Mailer:MIME-Version:Content-Type;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  i=iwt2024_registration@s-bev.jp;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  z=Date:Thu,=2018=20Jul=202024=2012:12:54=20+0900
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |To:=3D?UTF-8?B?5p+z5LqVIOWPr+S4luWtkA=3D=3D?=3D=20<khorikawa@informatica.
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  com>
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |From:=3D?UTF-8?Q?Informatica_World_Tour_2024_=3DE4=3DBA=3D8B=3DE5=3D8B=3D
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  99=3DE5=3DB1=3D80?=3D=20<iwt2024_registration@s-bev.jp>
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |Subject:=3D?UTF-8?B?IOOAkEluZm9ybWF0aWNhIFdvcmxkIFRvdXIgMjAyNOOAkeeZu+mMs
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  uWujOS6huOBruOBlOmAo+e1oQ=3D=3D?=3D
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |Message-ID:<O5bgXBqQglzRJwZvZl5yMIEWD3t2GsjhOhkjzbpJ34w@iwt2024.jp>
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |X-Mailer:PHPMailer=206.9.1=20(https://github.com/PHPMailer/PHPMailer)
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |MIME-Version:1.0
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  |Content-Type:text/plain=3B=20charset=3DUTF-8;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  bh=i5wCjlwpqHPHrD7+q5Q/fiQnlis40M1zNsQNclmN86U=;
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  b=m7UkyCPfSCvUGVvJ9bEzEGMfDDyOEzd9fXRwT39fHik80Du0n+hzc0zLpLH1SzGioFZuwaqyz
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  OCt3s684ZZ+2JpoSM3tTlBSB8wBHhW4jAv2EbKxzG8XhlQUSeHhy17YV/VLQFC25ozM3oZU4O
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  Oisy6tUxFUcV2enQSrY0gv3ylk/3chf/6Z58n4JUQLzEMCX71HKfFD1hrOQqRqSYBcXvzga0z
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  yhLwGsOiRgfzlaDHoozSteRmQH9JRTIDN7EzMt1VM1k5fTTw9TIb6AeY0Y+45NbSFVHEIqrZf
+
+2024-07-18 03:12:54	CLIENT -> SERVER:  RBtB6kdf08U20/aATLmAmK75UKA9YmxlwER1GSSLdxgAIhKWWQ==
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 【Informatica World Tour 2024】登録完了のご連絡
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2024-07-18 03:12:54	CLIENT -> SERVER: このたびは、「Informatica World Tour 2024」にお申し込みいただきまして、
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 誠にありがとうございます。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: お客様のご登録が完了いたしましたのでご連絡申し上げます。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 後日、事務局より当日来場時に必要な参加受講票を、お送りいたします。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ＜Informatica World Tour 2024 開催概要＞
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 会期：2024年9月13日(金) 13:30-18:30（13:00- 受付/展示オープン）
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 会場：大手町プレイス ホール&カンファレンス（2F 受付）
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 　　　東京都千代田区大手町2-3-1大手町プレイス(イーストタワー) 1F/2F
+
+2024-07-18 03:12:54	CLIENT -> SERVER: アクセス：東京メトロ・都営地下鉄 「大手町」駅 A5出口直結
+
+2024-07-18 03:12:54	CLIENT -> SERVER: https://otemachi-place-hc.jp/access.html
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ＜お客様情報＞
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:12:54	CLIENT -> SERVER: [ID] L184KU3a3101
+
+2024-07-18 03:12:54	CLIENT -> SERVER: [会社名] 株式会社シードブレイン
+
+2024-07-18 03:12:54	CLIENT -> SERVER: [氏名] 柳井 可世子
+
+2024-07-18 03:12:54	CLIENT -> SERVER: [セッション]
+
+2024-07-18 03:12:54	CLIENT -> SERVER: マイページより、ご登録いただいたセッションをご確認いただけます。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ----------------------------------------------------------------------
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ＜マイページ＞
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 下記URLよりアクセスいただき、お客様情報に記載されている[ID]番号とご登録いただいた[パスワード]をご入力の上、マイページへログインしてください。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: URL：https://s-bev.jp/login.php
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ご登録いただいた[パスワード]が不明の場合は、マイページのログイン画面にあります
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 「パスワードを忘れた方」よりお問い合わせください。
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ＜お問い合わせ＞
+
+2024-07-18 03:12:54	CLIENT -> SERVER: Informatica World Tour 2024 事務局
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ◇システムやアカウントに関するお問い合わせ（株式会社シードブレイン 内）
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 　Email：iwt2024_registration@s-bev.jp
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: ◇イベント内容に関するお問い合わせ（株式会社George P. Johnsnon 内）
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 　Email：iwt2024@jevent.jp
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: 
+
+2024-07-18 03:12:54	CLIENT -> SERVER: .
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 250 2.0.0 46I3CsMA042807 Message accepted for delivery
+
+2024-07-18 03:12:54	CLIENT -> SERVER: QUIT
+
+2024-07-18 03:12:54	SERVER -> CLIENT: 221 2.0.0 www342b.sakura.ne.jp closing connection
+

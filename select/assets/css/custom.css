@@ -1,0 +1,11 @@
+.section-highlights .col p {
+    width: 290px;
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* line 65, assets/scss/parts/_table.scss */
+.ntt-cell .member-image {
+  margin-top: 20px;
+}

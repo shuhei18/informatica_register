@@ -1,0 +1,138 @@
+<p id="error-message" style="color: red; text-align: center; display: none; padding-bottom:20px;">※セッションを選択してください
+    </p>
+
+
+    <form id="sessionForm" action="privacy.php" method="post">
+        <div class="select-btn-box">
+            <button type="button" onclick="radioDeselection()" class="select-btn-2">選択リセット</button>
+            <button type="button" class="select-btn" onclick="submitForm()">登録確認へ進む</button>
+        </div>
+        <input type="hidden" name="from_index" value="true">
+        <input type="hidden" name="sessions" id="sessions"> <!-- ここを追加 -->
+    </form>
+
+    </div>
+
+
+    <script language="JavaScript" type="text/JavaScript">
+        function submitForm() {
+        let selectedLectures = [];
+        document.querySelectorAll('input[name="sessions[]"]:checked').forEach(function (checkbox) {
+            selectedLectures.push(checkbox.dataset.time + ";" + checkbox.dataset.title + ";" + checkbox.dataset.hall);
+        });
+        document.getElementById('sessions').value = JSON.stringify(selectedLectures);
+
+        let form = document.getElementById('sessionForm');
+        let formData = new FormData(form);
+
+        fetch('privacy.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            document.write(data);
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    function initializeCheckboxes() {
+        const checkboxes = document.querySelectorAll('input[name="sessions[]"]');
+        selectedSessions.forEach(session => {
+            checkboxes.forEach(checkbox => {
+                if (checkbox.dataset.time === session.lecture_time && checkbox.dataset.hall === session.hall) {
+                    checkbox.checked = true;
+                }
+            });
+        });
+    }
+
+    window.onload = function() {
+        initializeCheckboxes();
+    };
+
+    function toggleSelect(checkId, selectId, titleId) {
+        const isChecked = document.getElementById(checkId).checked;
+        const selectElement = document.getElementById(selectId);
+        const titleElement = document.getElementById(titleId);
+
+        selectElement.disabled = !isChecked;
+        selectElement.style.background = isChecked ? '#ff6a13' : '#fff';
+        titleElement.style.color = isChecked ? 'white' : '#ff4d00';
+    }
+
+    for (let i = 1; i <= 12; i++) {
+        toggleSelect(`id_check_agree_${i}`, `select-${i}`, `title-${i}`);
+    }
+
+    function createCheckAgreeFunc(i) {
+        return function() {
+            const currentCheckbox = document.getElementById(`id_check_agree_${i}`);
+            const currentTime = currentCheckbox.dataset.time;
+
+            toggleSelect(`id_check_agree_${i}`, `select-${i}`, `title-${i}`);
+
+            reevaluateCheckboxes();
+        };
+    }
+
+    for (let i = 1; i <= 12; i++) {
+        window[`check_agree_func_${i}`] = createCheckAgreeFunc(i);
+    }
+
+    function isTimeOverlap(time1, time2) {
+        const [start1, end1] = time1.split('-').map(t => t.replace(':', ''));
+        const [start2, end2] = time2.split('-').map(t => t.replace(':', ''));
+        return !(end1 <= start2 || end2 <= start1);
+    }
+
+    function reevaluateCheckboxes() {
+        const checkboxes = document.getElementsByName('sessions[]');
+        for (let checkbox of checkboxes) {
+            if (!checkbox.checked) {
+                const currentTime = checkbox.dataset.time;
+                let overlap = false;
+                for (let otherCheckbox of checkboxes) {
+                    if (otherCheckbox !== checkbox && otherCheckbox.checked && isTimeOverlap(otherCheckbox.dataset.time, currentTime)) {
+                        overlap = true;
+                        break;
+                    }
+                }
+                checkbox.disabled = overlap;
+                const selectId = checkbox.id.replace('id_check_agree_', 'select-');
+                document.getElementById(selectId).style.background = overlap ? '#d3d3d3' : '#fff';
+            }
+        }
+    }
+
+    function radioDeselection() {
+        document.getElementsByName('sessions[]').forEach(element => {
+            element.checked = false;
+            element.disabled = false;
+            const selectId = element.id.replace('id_check_agree_', 'select-');
+            document.getElementById(selectId).style.background = '#fff';
+        });
+
+        for (let i = 1; i <= 12; i++) {
+            toggleSelect(`id_check_agree_${i}`, `select-${i}`, `title-${i}`);
+        }
+    }
+</script>
+
+    <!-- footer start -->
+    <div class="footer-wave-image" style="background-image: url(assets/images/footer-wave.jpg);"></div>
+
+    <!-- footer end -->
+
+
+
+
+
+
+    <div class="drawer-overlay drawer-toggle"></div>
+    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/scroll_color.js"></script>
+
+</body>
+
+</html>
