@@ -1,9 +1,8 @@
-# informatica講演会[
-https://greenjackal32.sakura.ne.jp/test/IWT2024_0918-honban/select/index.php
+# informatica講演会
+https://greenjackal32.sakura.ne.jp/test/IWT2024_0918-honban/select/index.php　
 
-
-※ログイン時、下記にてログインしてください。
-ID：user
+※ログイン時、下記にてログインしてください。　
+ID：user　
 PW：YmCQngKwtDGn3
 
 
