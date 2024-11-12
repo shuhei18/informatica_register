@@ -1,4 +1,4 @@
-# informatica講演会登録サイト  
+# 講演会登録サイト  
 https://greenjackal32.sakura.ne.jp/test/IWT2024_0918-honban/select/index.php
 
 ※ログイン時、下記にてログインしてください。  
